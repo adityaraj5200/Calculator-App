@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Aditya's Calculator app</title>
+
+  <link rel="stylesheet" href="common_style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+
+</head> 
+
+<body>
+  <div class="container">
+    <div class="calculator">
+      <div class="top">
+        <span class="top-left">Aditya's Calculator</span>
+        <span class="top-right">
+          <div class="theme">THEME (Press 't' to switch)</div>
+          <div class="toggle-bar">
+            <div class="bar1 bar"> <p class="theme-number">1</p> </div>
+            <div class="bar2 bar"> <p class="theme-number">2</p> </div>
+          </div>
+        </span>
+      </div>
+      <div class="screen">
+        <p></p>
+      </div>
+      <div class="keypad">
+        <div class="key-rows">
+          <button class="small-btn btn" id="7">7</button>
+          <button class="small-btn btn" id="8">8</button>
+          <button class="small-btn btn" id="9">9</button>
+          <button class="small-btn btn" id="DEL">DEL</button>
+        </div>
+
+        <div class="key-rows">
+          <button class="small-btn btn" id="4">4</button>
+          <button class="small-btn btn" id="5">5</button>
+          <button class="small-btn btn" id="6">6</button>
+          <button class="small-btn btn" id="+">+</button>
+        </div>
+
+        <div class="key-rows">
+          <button class="small-btn btn" id="1">1</button>
+          <button class="small-btn btn" id="2">2</button>
+          <button class="small-btn btn" id="3">3</button>
+          <button class="small-btn btn" id="-">-</button>
+        </div>
+
+        <div class="key-rows">
+          <button class="small-btn btn" id=".">.</button>
+          <button class="small-btn btn" id="0">0</button>
+          <button class="small-btn btn" id="/">/</button>
+          <button class="small-btn btn" id="*">x</button>
+        </div>
+        
+        <div class="key-rows">
+          <button class="large-btn btn" id="RESET">RESET / C</button>
+          <button class="large-btn btn" id="equal_btn">=</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Aditya Raj</a>.
+  </div>
+
+  
+  <script src="app.js"></script>
+</body>
+</html>
